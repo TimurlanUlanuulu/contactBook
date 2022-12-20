@@ -1,0 +1,39 @@
+{
+  "contacts": [
+    {
+      "name": "Кендрик",
+      "surname": "Лама",
+      "phone": "+996(777)777-888",
+      "photo": "https://i.pinimg.com/originals/1c/e4/41/1ce441ad4cf34178031852ebf3e0b0c1.jpg",
+      "id": 1
+    },
+    {
+      "name": "Маршал",
+      "surname": "Метерс",
+      "phone": "+996(555)555-667",
+      "photo": "https://memepedia.ru/wp-content/uploads/2020/12/lovi-homjaka.jpg",
+      "id": 2
+    },
+    {
+      "name": "kanye",
+      "surname": "east",
+      "phone": "+996(777)555-777",
+      "photo": "https://i1.sndcdn.com/artworks-GYPNlzuOUjMR6wov-cIthaQ-t500x500.jpg",
+      "id": 3
+    },
+    {
+      "name": "Snoop",
+      "surname": "Cat",
+      "phone": "+996(555)777-555",
+      "photo": "https://pbs.twimg.com/media/E3mO0FqVgAYACTI?format=jpg&name=large",
+      "id": 4
+    },
+    {
+      "name": "Onepac",
+      "surname": "Shakur",
+      "phone": "+996(557)775-557",
+      "photo": "https://pbs.twimg.com/media/E2t9P8VXoAorTF7.jpg:large",
+      "id": 5
+    }
+  ]
+}

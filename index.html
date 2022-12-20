@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>ContactBook</h1>
+    <div class="container">
+      <div class="form">
+        <h3>Введите данные контакта</h3>
+        <div class="data">
+          <div class="data__inp name">
+            <span> Имя: </span>
+            <input class="name-inp" type="text" placeholder="Ivan" />
+          </div>
+          <div class="data__inp surname">
+            <span> Фамилия: </span>
+            <input class="surname-inp" type="text" placeholder="Ivanov" />
+          </div>
+          <div class="data__inp phone-num">
+            <span> Номер телефона: </span>
+            <input
+              class="phone-inp"
+              type="text"
+              placeholder="+996(777)777-777"
+            />
+          </div>
+          <div class="data__inp photo">
+            <span> Фото: </span>
+            <input class="photo-inp" type="text" />
+          </div>
+          <button class="add-btn btn">Добавить</button>
+        </div>
+      </div>
+      <div class="edit-form">
+        <div class="form">
+          <div class="edit-title">
+            <h3>Редактирование контакта</h3>
+            <button class="close btn">X</button>
+          </div>
+          <div class="image">
+            <img class="contact-photo form-image" src="" alt="" />
+          </div>
+          <div class="data">
+            <div class="data__inp name">
+              <span> Имя: </span>
+              <input class="edit-name-inp" type="text" placeholder="Ivan" />
+            </div>
+            <div class="data__inp surname">
+              <span> Фамилия: </span>
+              <input
+                class="edit-surname-inp"
+                type="text"
+                placeholder="Ivanov"
+              />
+            </div>
+            <div class="data__inp phone-num">
+              <span> Номер телефона: </span>
+              <input
+                class="edit-phone-inp"
+                type="text"
+                placeholder="+996(777)777-777"
+              />
+            </div>
+            <div class="data__inp photo">
+              <span> Фото: </span>
+              <input class="edit-photo-inp" type="text" />
+            </div>
+            <button class="save-btn btn">Сохранить</button>
+          </div>
+        </div>
+      </div>
+      <div class="contacts">
+        <!-- <div class="contact__form form">
+          <div class="image">
+            <img class="contact-photo"
+              src="https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F210123170423-eminem-file.jpg"
+              alt=""
+            />
+          </div>
+          <h3>Данные контакта</h3>
+          <div class="data contact__data">
+            <div class="contact contact-name">
+              <p>Имя:</p>
+              <p class=""></p>
+            </div>
+            <div class="contact contact-surname">
+              <p>Фамилия:</p>
+              <p class=""></p>
+            </div>
+            <div class="contact contact-phone-num">
+              <p>Номер телефона:</p>
+              <p class=""></p>
+            </div>
+            <button class="edit-btn btn">Редактировать</button>
+            <button class="del-btn btn">Удалить</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
